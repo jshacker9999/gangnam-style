@@ -1,0 +1,41 @@
+body {
+    background: #000;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Monospace;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#info {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    padding: 5px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#play_overlay {
+    position: absolute;
+    font-size: 5em;
+    text-align: center;
+    top: 7em;
+    z-index: 100;
+    width: 100%;
+    display: none;
+}
+
+.pbutton {
+    cursor: pointer;
+    color: #fff;
+    border: solid 1px white;
+    width: 4em;
+    margin: 0 auto;
+    padding: 0.5em;
+}
